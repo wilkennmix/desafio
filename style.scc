@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#topo{
+	height: 250px;
+	background: orange;
+}
+#menu{
+	background-color: rgba(0,0,255,0.3);
+}
+#menu ul, li{
+	display: inline-table;
+	padding: 20px 30px;
+	cursor: pointer;
+}
+#menu ul li a{
+	text-decoration: nome;
+	color: white;
+}
+#menu ul li:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+#conteudo{
+	background-color: gray;
+	min-height: 335px;
+}
